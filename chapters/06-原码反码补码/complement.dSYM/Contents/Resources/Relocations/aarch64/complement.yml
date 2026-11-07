@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/xiaojinghan/Documents/GitHub/learnc/chapters/06-原码反码补码/complement"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DC4, symSize: 0xE4 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DC4, symSize: 0xE4 }
+  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _print_bits, symObjAddr: 0xE4, symBinAddr: 0x100003EA8, symSize: 0xA8 }
+...

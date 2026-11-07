@@ -15,5 +15,8 @@ int main(void)
     int32_t x32 = 1234567;
     printf("x32 = %" PRId32 "\n", x32);
     printf("x32变量中存储数据的字节长度为:%zu\n", sizeof(int32_t));
+    printf("short=%zu int=%zu long=%zu long long=%zu\n",
+       sizeof(short), sizeof(int), sizeof(long), sizeof(long long));
+
     return 0;
 }
