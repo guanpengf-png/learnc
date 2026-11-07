@@ -1,0 +1,49 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xiaojinghan/Documents/GitHub/learnc/pvz'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001138, symSize: 0x2A4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _grid, symObjAddr: 0x67E0, symBinAddr: 0x1000080C8, symSize: 0x0 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _peas, symObjAddr: 0x6D80, symBinAddr: 0x100008668, symSize: 0x0 }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _mower, symObjAddr: 0x7380, symBinAddr: 0x100008C68, symSize: 0x0 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _orig_term, symObjAddr: 0x73A8, symBinAddr: 0x100008C90, symSize: 0x0 }
+  - { offsetInCU: 0x1F0, offset: 0x1F0, size: 0x8, addend: 0x0, symName: _raw_mode_on, symObjAddr: 0x73F0, symBinAddr: 0x100008CD8, symSize: 0x0 }
+  - { offsetInCU: 0x205, offset: 0x205, size: 0x8, addend: 0x0, symName: _quit, symObjAddr: 0x7394, symBinAddr: 0x100008C7C, symSize: 0x0 }
+  - { offsetInCU: 0x21A, offset: 0x21A, size: 0x8, addend: 0x0, symName: _cursorRow, symObjAddr: 0x2D38, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _cursorCol, symObjAddr: 0x2D3C, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x244, offset: 0x244, size: 0x8, addend: 0x0, symName: _selected, symObjAddr: 0x2D40, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x259, offset: 0x259, size: 0x8, addend: 0x0, symName: _message, symObjAddr: 0x2D44, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x27A, offset: 0x27A, size: 0x8, addend: 0x0, symName: _sun, symObjAddr: 0x2DE8, symBinAddr: 0x1000080B0, symSize: 0x0 }
+  - { offsetInCU: 0x28F, offset: 0x28F, size: 0x8, addend: 0x0, symName: _paused, symObjAddr: 0x7398, symBinAddr: 0x100008C80, symSize: 0x0 }
+  - { offsetInCU: 0x2A4, offset: 0x2A4, size: 0x8, addend: 0x0, symName: _gameover, symObjAddr: 0x739C, symBinAddr: 0x100008C84, symSize: 0x0 }
+  - { offsetInCU: 0x2B9, offset: 0x2B9, size: 0x8, addend: 0x0, symName: _gameTime, symObjAddr: 0x73F8, symBinAddr: 0x100008CE0, symSize: 0x0 }
+  - { offsetInCU: 0x2CE, offset: 0x2CE, size: 0x8, addend: 0x0, symName: _skyTimer, symObjAddr: 0x2DF0, symBinAddr: 0x1000080B8, symSize: 0x0 }
+  - { offsetInCU: 0x2E3, offset: 0x2E3, size: 0x8, addend: 0x0, symName: _spawned, symObjAddr: 0x7400, symBinAddr: 0x100008CE8, symSize: 0x0 }
+  - { offsetInCU: 0x2F8, offset: 0x2F8, size: 0x8, addend: 0x0, symName: _spawnTimer, symObjAddr: 0x2DF8, symBinAddr: 0x1000080C0, symSize: 0x0 }
+  - { offsetInCU: 0x30D, offset: 0x30D, size: 0x8, addend: 0x0, symName: _npeas, symObjAddr: 0x7404, symBinAddr: 0x100008CEC, symSize: 0x0 }
+  - { offsetInCU: 0x322, offset: 0x322, size: 0x8, addend: 0x0, symName: _nzombies, symObjAddr: 0x7408, symBinAddr: 0x100008CF0, symSize: 0x0 }
+  - { offsetInCU: 0x337, offset: 0x337, size: 0x8, addend: 0x0, symName: _zombies, symObjAddr: 0x7410, symBinAddr: 0x100008CF8, symSize: 0x0 }
+  - { offsetInCU: 0x3C8, offset: 0x3C8, size: 0x8, addend: 0x0, symName: _won, symObjAddr: 0x73A0, symBinAddr: 0x100008C88, symSize: 0x0 }
+  - { offsetInCU: 0x3E9, offset: 0x3E9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001138, symSize: 0x2A4 }
+  - { offsetInCU: 0x489, offset: 0x489, size: 0x8, addend: 0x0, symName: _setup_term, symObjAddr: 0x2A4, symBinAddr: 0x1000013DC, symSize: 0x120 }
+  - { offsetInCU: 0x4AD, offset: 0x4AD, size: 0x8, addend: 0x0, symName: _now_sec, symObjAddr: 0x3C4, symBinAddr: 0x1000014FC, symSize: 0x44 }
+  - { offsetInCU: 0x542, offset: 0x542, size: 0x8, addend: 0x0, symName: _read_keys, symObjAddr: 0x408, symBinAddr: 0x100001540, symSize: 0x194 }
+  - { offsetInCU: 0x5ED, offset: 0x5ED, size: 0x8, addend: 0x0, symName: _handle_keys, symObjAddr: 0x59C, symBinAddr: 0x1000016D4, symSize: 0x360 }
+  - { offsetInCU: 0x65C, offset: 0x65C, size: 0x8, addend: 0x0, symName: _update, symObjAddr: 0xAE4, symBinAddr: 0x100001C1C, symSize: 0x9A4 }
+  - { offsetInCU: 0x7B3, offset: 0x7B3, size: 0x8, addend: 0x0, symName: _draw, symObjAddr: 0x1488, symBinAddr: 0x1000025C0, symSize: 0x6E0 }
+  - { offsetInCU: 0x8DF, offset: 0x8DF, size: 0x8, addend: 0x0, symName: _restore_term, symObjAddr: 0x1B68, symBinAddr: 0x100002CA0, symSize: 0x64 }
+  - { offsetInCU: 0x8F4, offset: 0x8F4, size: 0x8, addend: 0x0, symName: _remove_at, symObjAddr: 0x1BCC, symBinAddr: 0x100002D04, symSize: 0xBC }
+  - { offsetInCU: 0x929, offset: 0x929, size: 0x8, addend: 0x0, symName: _plant_at, symObjAddr: 0x1C88, symBinAddr: 0x100002DC0, symSize: 0x290 }
+  - { offsetInCU: 0x986, offset: 0x986, size: 0x8, addend: 0x0, symName: _msg_set, symObjAddr: 0x1F18, symBinAddr: 0x100003050, symSize: 0x48 }
+  - { offsetInCU: 0x9AA, offset: 0x9AA, size: 0x8, addend: 0x0, symName: _plant_cost, symObjAddr: 0x1F60, symBinAddr: 0x100003098, symSize: 0x80 }
+  - { offsetInCU: 0x9D2, offset: 0x9D2, size: 0x8, addend: 0x0, symName: _plant_hp, symObjAddr: 0x1FF0, symBinAddr: 0x100003128, symSize: 0x98 }
+  - { offsetInCU: 0x9FA, offset: 0x9FA, size: 0x8, addend: 0x0, symName: _plant_name, symObjAddr: 0x2098, symBinAddr: 0x1000031D0, symSize: 0x98 }
+  - { offsetInCU: 0xA22, offset: 0xA22, size: 0x8, addend: 0x0, symName: _rand01, symObjAddr: 0x2140, symBinAddr: 0x100003278, symSize: 0x24 }
+  - { offsetInCU: 0xA3B, offset: 0xA3B, size: 0x8, addend: 0x0, symName: _spawn_zombie, symObjAddr: 0x2164, symBinAddr: 0x10000329C, symSize: 0x244 }
+  - { offsetInCU: 0xA8E, offset: 0xA8E, size: 0x8, addend: 0x0, symName: _zombie_ahead, symObjAddr: 0x23A8, symBinAddr: 0x1000034E0, symSize: 0x108 }
+  - { offsetInCU: 0xAE4, offset: 0xAE4, size: 0x8, addend: 0x0, symName: _add_pea, symObjAddr: 0x24B0, symBinAddr: 0x1000035E8, symSize: 0x90 }
+  - { offsetInCU: 0xB28, offset: 0xB28, size: 0x8, addend: 0x0, symName: _count_plants, symObjAddr: 0x2540, symBinAddr: 0x100003678, symSize: 0xB8 }
+  - { offsetInCU: 0xB88, offset: 0xB88, size: 0x8, addend: 0x0, symName: _zombie_char, symObjAddr: 0x25F8, symBinAddr: 0x100003730, symSize: 0x64 }
+  - { offsetInCU: 0xBB0, offset: 0xBB0, size: 0x8, addend: 0x0, symName: _plant_color, symObjAddr: 0x265C, symBinAddr: 0x100003794, symSize: 0x98 }
+  - { offsetInCU: 0xBD8, offset: 0xBD8, size: 0x8, addend: 0x0, symName: _plant_char, symObjAddr: 0x2704, symBinAddr: 0x10000383C, symSize: 0x84 }
+...
