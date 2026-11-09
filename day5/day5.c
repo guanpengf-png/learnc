@@ -53,5 +53,15 @@ int main(void)
     }
     printf("%d", sum1);
     printf("\n");
+    // calculate the sum of the even numbers from 1 to 100
+    int sum2=0;
+    for (int i=0;i<100;i++){
+        if(i%2==0){
+            sum2 +=i;
+            
+        }
+
+    }
+    printf("%d",sum2);
     return 0;
 }
