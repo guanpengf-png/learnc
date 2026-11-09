@@ -61,6 +61,22 @@ int main(void)
             
         }
 
+    int row=3;
+    int col=4;
+    printf("{");
+    for(int ii=0;ii<row;ii++){
+        for(int jj=0;jj<col;jj++){
+            //printf("[%d][%d]",ii,jj);
+            if(jj<col-1){
+                printf("[%d][%d]",ii,jj);
+                printf(",");
+            }
+        }
+        printf(",\n");
+
+    }
+    printf("}");
+
     }
     printf("%d",sum2);
     return 0;
