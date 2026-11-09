@@ -26,7 +26,7 @@ int main(void)
         if(i%7==0||i/10==7||i%10==7){
             continue;
         }
-        printf("%d",i);
+        printf("%d\t",i);
 
     }
     return 0;
