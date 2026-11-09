@@ -9,6 +9,26 @@ int main() {
     for(int i=0;i<len;i++){
         printf("%d\t",num[i]);
     }
-
+    int max_num=num[0];
+    int min_num=num[0];
+    int max_index=0;
+    int min_index=0;
+    int sum=0;
+    for(int i=0;i<len;i++){
+        sum+=num[i];
+        if(max_num>num[i]){
+            max_num=num[i];
+            max_index=i;
+        }
+        if(min_num<num[i]){
+            min_num=num[i];
+            min_index=i;
+        }
+    }
+    printf("max_num:%d\n",max_num);
+    printf("max_index:%d\n",max_index);
+    printf("min_num:%d\n",min_num);
+    printf("min_index:%d\n",min_index);
+    printf("sum:%d\n",sum);
     return 0;
 }
