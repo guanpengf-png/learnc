@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stddef.h>
+
 
 int len = 5;
 int arr[5] = {10, 20, 30, 40, 50};
@@ -79,5 +81,39 @@ int main(void)
 
     }
     printf("%d",sum2);
+   
+    
+
+
+
+    int nums[] = {10, 20, 30, 40, 50};
+    int *ptr1 = &nums[0];
+    int *ptr2 = &nums[3];
+
+    // 指针差值：元素个数
+    ptrdiff_t diff_ptr = ptr2 - ptr1;
+    // 强转后，直接算地址字节差
+    long long diff_byte = (long long)ptr2 - (long long)ptr1;
+
+    printf("===== int 数组（合法：同一数组内）=====\n");
+    printf("ptr2 - ptr1（元素个数）: %td\n", diff_ptr);
+    printf("地址字节差: %lld\n", diff_byte);
+    printf("验证：%lld / sizeof(int) = %lld\n\n", diff_byte, diff_byte / sizeof(int));
+
+
+    double d1 = 1.0, d2 = 2.0;
+    double *p1 = &d1, *p2 = &d2;
+
+    ptrdiff_t diff_p = p2 - p1;
+    long long diff_p_byte = (long long)p2 - (long long)p1;
+
+    printf("===== double 独立变量（⚠️未定义行为！仅观察）=====\n");
+    printf("p2 - p1（元素个数）: %td\n", diff_p);
+    printf("地址字节差: %lld\n", diff_p_byte);
+    printf("验证：%lld / sizeof(double) = %lld\n", diff_p_byte, diff_p_byte / sizeof(double));
+
     return 0;
 }
+
+
+
