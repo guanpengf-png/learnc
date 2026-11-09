@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xiaojinghan/Documents/GitHub/learnc/answer'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035AC, symSize: 0x300 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035AC, symSize: 0x300 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _is_leap_year, symObjAddr: 0x300, symBinAddr: 0x1000038AC, symSize: 0x8C }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _is_narcissistic, symObjAddr: 0x38C, symBinAddr: 0x100003938, symSize: 0xF4 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _days_in_month, symObjAddr: 0x480, symBinAddr: 0x100003A2C, symSize: 0x150 }
+  - { offsetInCU: 0x189, offset: 0x189, size: 0x8, addend: 0x0, symName: _print_letters, symObjAddr: 0x5D0, symBinAddr: 0x100003B7C, symSize: 0xC4 }
+  - { offsetInCU: 0x1D7, offset: 0x1D7, size: 0x8, addend: 0x0, symName: _alternating_sum, symObjAddr: 0x694, symBinAddr: 0x100003C40, symSize: 0xBC }
+...
