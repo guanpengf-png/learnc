@@ -14,6 +14,9 @@ int main(void)
 {
     int result = get_sum(10, 20);
     printf("%d\n", result);
+    int num=10;
+    num++;
+    printf("%d",++num);
     return 0;
 }
 

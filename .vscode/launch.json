@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/xiaojinghan/Documents/GitHub/learnc/chapters/05-进制",
-      "program": "/Users/xiaojinghan/Documents/GitHub/learnc/chapters/05-进制/build/Debug/outDebug"
+      "cwd": "/Users/xiaojinghan/Documents/GitHub/learnc/day5",
+      "program": "/Users/xiaojinghan/Documents/GitHub/learnc/day5/build/Debug/outDebug"
     }
   ]
 }
