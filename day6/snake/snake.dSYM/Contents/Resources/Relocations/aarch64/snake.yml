@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     snake
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002E00, symSize: 0x1A4 }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _BINDS, symObjAddr: 0x10C8, symBinAddr: 0x100004090, symSize: 0x0 }
+  - { offsetInCU: 0x133, offset: 0x133, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002E00, symSize: 0x1A4 }
+  - { offsetInCU: 0x189, offset: 0x189, size: 0x8, addend: 0x0, symName: _game_init, symObjAddr: 0x1A4, symBinAddr: 0x100002FA4, symSize: 0x90 }
+  - { offsetInCU: 0x1AF, offset: 0x1AF, size: 0x8, addend: 0x0, symName: _paint, symObjAddr: 0x234, symBinAddr: 0x100003034, symSize: 0x104 }
+  - { offsetInCU: 0x1F3, offset: 0x1F3, size: 0x8, addend: 0x0, symName: _draw, symObjAddr: 0x338, symBinAddr: 0x100003138, symSize: 0x1B4 }
+  - { offsetInCU: 0x27F, offset: 0x27F, size: 0x8, addend: 0x0, symName: _game_tick, symObjAddr: 0x4EC, symBinAddr: 0x1000032EC, symSize: 0x100 }
+  - { offsetInCU: 0x2C3, offset: 0x2C3, size: 0x8, addend: 0x0, symName: _handle_key, symObjAddr: 0x5EC, symBinAddr: 0x1000033EC, symSize: 0xE4 }
+  - { offsetInCU: 0x31A, offset: 0x31A, size: 0x8, addend: 0x0, symName: _game_free, symObjAddr: 0x6D0, symBinAddr: 0x1000034D0, symSize: 0x38 }
+  - { offsetInCU: 0x340, offset: 0x340, size: 0x8, addend: 0x0, symName: _snake_init, symObjAddr: 0x708, symBinAddr: 0x100003508, symSize: 0x10C }
+  - { offsetInCU: 0x380, offset: 0x380, size: 0x8, addend: 0x0, symName: _spawn_food, symObjAddr: 0x814, symBinAddr: 0x100003614, symSize: 0xA4 }
+  - { offsetInCU: 0x3C4, offset: 0x3C4, size: 0x8, addend: 0x0, symName: _snake_reserve, symObjAddr: 0x8B8, symBinAddr: 0x1000036B8, symSize: 0x114 }
+  - { offsetInCU: 0x424, offset: 0x424, size: 0x8, addend: 0x0, symName: _occupied_by_snake, symObjAddr: 0x9CC, symBinAddr: 0x1000037CC, symSize: 0xA8 }
+  - { offsetInCU: 0x47B, offset: 0x47B, size: 0x8, addend: 0x0, symName: _point_eq, symObjAddr: 0xA74, symBinAddr: 0x100003874, symSize: 0x64 }
+  - { offsetInCU: 0x4B1, offset: 0x4B1, size: 0x8, addend: 0x0, symName: _clear_cells, symObjAddr: 0xAD8, symBinAddr: 0x1000038D8, symSize: 0x34 }
+  - { offsetInCU: 0x4D7, offset: 0x4D7, size: 0x8, addend: 0x0, symName: _cell_at, symObjAddr: 0xB0C, symBinAddr: 0x10000390C, symSize: 0x44 }
+  - { offsetInCU: 0x51B, offset: 0x51B, size: 0x8, addend: 0x0, symName: _idx, symObjAddr: 0xB50, symBinAddr: 0x100003950, symSize: 0x28 }
+  - { offsetInCU: 0x551, offset: 0x551, size: 0x8, addend: 0x0, symName: _in_bounds, symObjAddr: 0xB78, symBinAddr: 0x100003978, symSize: 0x90 }
+  - { offsetInCU: 0x579, offset: 0x579, size: 0x8, addend: 0x0, symName: _snake_hits_self, symObjAddr: 0xC08, symBinAddr: 0x100003A08, symSize: 0xAC }
+  - { offsetInCU: 0x5D0, offset: 0x5D0, size: 0x8, addend: 0x0, symName: _snake_step, symObjAddr: 0xCB4, symBinAddr: 0x100003AB4, symSize: 0x1AC }
+  - { offsetInCU: 0x64E, offset: 0x64E, size: 0x8, addend: 0x0, symName: _go_up, symObjAddr: 0xE60, symBinAddr: 0x100003C60, symSize: 0x44 }
+  - { offsetInCU: 0x674, offset: 0x674, size: 0x8, addend: 0x0, symName: _go_down, symObjAddr: 0xEA4, symBinAddr: 0x100003CA4, symSize: 0x44 }
+  - { offsetInCU: 0x69A, offset: 0x69A, size: 0x8, addend: 0x0, symName: _go_left, symObjAddr: 0xEE8, symBinAddr: 0x100003CE8, symSize: 0x44 }
+  - { offsetInCU: 0x6C0, offset: 0x6C0, size: 0x8, addend: 0x0, symName: _go_right, symObjAddr: 0xF2C, symBinAddr: 0x100003D2C, symSize: 0x44 }
+  - { offsetInCU: 0x6E6, offset: 0x6E6, size: 0x8, addend: 0x0, symName: _snake_free, symObjAddr: 0xF70, symBinAddr: 0x100003D70, symSize: 0x40 }
+...

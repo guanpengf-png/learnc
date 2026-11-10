@@ -16,5 +16,6 @@ int main(void)
     int a=10,b=20;
     int max_num=get_maxnumber(a,b);
     printf("max_getnumber: %d\n",max_num);
+    printf("%s",__func__);
     return 0;
 }
