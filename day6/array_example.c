@@ -8,7 +8,8 @@ int main(void)
     for(int i=0;i<row;i++){
         for(int j=0;j<col;j++){
             scanf("%d",&(*(*scores+i*col+j)));
-            printf("scores[%d][%d]: %d\n",i,j,*(*scores+i*col+j));
+            printf("scores[%d][%d]:",&scores[i][j]);
+            //printf("scores[%d][%d]: %d\n",i,j,*(*scores+i*col+j));
          }
 
     }
