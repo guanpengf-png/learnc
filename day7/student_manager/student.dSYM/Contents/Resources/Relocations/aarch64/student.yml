@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     student
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000029F8, symSize: 0x238 }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000029F8, symSize: 0x238 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _list_load, symObjAddr: 0x258, symBinAddr: 0x100002C50, symSize: 0x140 }
+  - { offsetInCU: 0x1AF, offset: 0x1AF, size: 0x8, addend: 0x0, symName: _print_menu, symObjAddr: 0x398, symBinAddr: 0x100002D90, symSize: 0x88 }
+  - { offsetInCU: 0x1C5, offset: 0x1C5, size: 0x8, addend: 0x0, symName: _clear_stdin, symObjAddr: 0x420, symBinAddr: 0x100002E18, symSize: 0x60 }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _menu_add, symObjAddr: 0x480, symBinAddr: 0x100002E78, symSize: 0x180 }
+  - { offsetInCU: 0x25A, offset: 0x25A, size: 0x8, addend: 0x0, symName: _menu_delete, symObjAddr: 0x600, symBinAddr: 0x100002FF8, symSize: 0xC4 }
+  - { offsetInCU: 0x28F, offset: 0x28F, size: 0x8, addend: 0x0, symName: _menu_update, symObjAddr: 0x6C4, symBinAddr: 0x1000030BC, symSize: 0x1BC }
+  - { offsetInCU: 0x300, offset: 0x300, size: 0x8, addend: 0x0, symName: _menu_search, symObjAddr: 0x880, symBinAddr: 0x100003278, symSize: 0x78 }
+  - { offsetInCU: 0x335, offset: 0x335, size: 0x8, addend: 0x0, symName: _list_print_all, symObjAddr: 0x8F8, symBinAddr: 0x1000032F0, symSize: 0xB4 }
+  - { offsetInCU: 0x379, offset: 0x379, size: 0x8, addend: 0x0, symName: _list_save, symObjAddr: 0x9AC, symBinAddr: 0x1000033A4, symSize: 0x104 }
+  - { offsetInCU: 0x3D0, offset: 0x3D0, size: 0x8, addend: 0x0, symName: _list_free, symObjAddr: 0xAB0, symBinAddr: 0x1000034A8, symSize: 0x68 }
+  - { offsetInCU: 0x422, offset: 0x422, size: 0x8, addend: 0x0, symName: _list_add, symObjAddr: 0xB18, symBinAddr: 0x100003510, symSize: 0xE4 }
+  - { offsetInCU: 0x49E, offset: 0x49E, size: 0x8, addend: 0x0, symName: _find_by_id, symObjAddr: 0xBFC, symBinAddr: 0x1000035F4, symSize: 0x78 }
+  - { offsetInCU: 0x4E2, offset: 0x4E2, size: 0x8, addend: 0x0, symName: _student_create, symObjAddr: 0xC74, symBinAddr: 0x10000366C, symSize: 0xBC }
+  - { offsetInCU: 0x550, offset: 0x550, size: 0x8, addend: 0x0, symName: _read_line, symObjAddr: 0xD30, symBinAddr: 0x100003728, symSize: 0xBC }
+  - { offsetInCU: 0x594, offset: 0x594, size: 0x8, addend: 0x0, symName: _list_delete, symObjAddr: 0xDEC, symBinAddr: 0x1000037E4, symSize: 0xD8 }
+  - { offsetInCU: 0x5E6, offset: 0x5E6, size: 0x8, addend: 0x0, symName: _list_update, symObjAddr: 0xEC4, symBinAddr: 0x1000038BC, symSize: 0xB0 }
+  - { offsetInCU: 0x662, offset: 0x662, size: 0x8, addend: 0x0, symName: _list_search, symObjAddr: 0xF74, symBinAddr: 0x10000396C, symSize: 0x7C }
+  - { offsetInCU: 0x6A6, offset: 0x6A6, size: 0x8, addend: 0x0, symName: _list_print_one, symObjAddr: 0xFF0, symBinAddr: 0x1000039E8, symSize: 0xB0 }
+  - { offsetInCU: 0x6CA, offset: 0x6CA, size: 0x8, addend: 0x0, symName: _calc_avg, symObjAddr: 0x10A0, symBinAddr: 0x100003A98, symSize: 0x38 }
+...
