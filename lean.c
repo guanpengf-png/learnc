@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
-    printf("hello\n");
+    
+    char a[]="asd";
+    printf("%zu",sizeof(a));
+
     return 0;
 }
