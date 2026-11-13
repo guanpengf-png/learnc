@@ -16,6 +16,20 @@ int main(){
     printf("%d\n",numss[0]);
     (*p1)+1;
     printf("%d\n",numss[0]);
+    int a =10,b=20,c=30;
+    int *prt[3];
+    prt[0]=&a;
+    prt[1]=&b;
+    prt[2]=&c;
+
+    int *prt2={&a,&b,&c};
+    int *a1=&a;
+    int *a2=&b;
+    int *a3=&c;
+    int *p3[]=(a1,a2,a3);
+
+    
+
 
 
     
