@@ -75,6 +75,15 @@ int main(void) {
                i, *p3[i], (void *)p3[i], (void *)&p3[i]);
     }
 
-    (void)prt; (void)prt2;              // 消除未使用变量警告
+    (void)prt; (void)prt2;    
+    int n={1,2,3,4,5};
+    int (*ns)[5]=&n;
+    printf("%p for nums",&n);
+    printf("%p for nums",ns);
+    printf("%p\n,%d",ns+1,sizeof(ns)/sizeof(ns[0]));
+    printf("&nums+1%p",&ns+1);
+
+    
+    // 消除未使用变量警告
     return 0;
 }
