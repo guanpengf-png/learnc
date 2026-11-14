@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xiaojinghan/Documents/GitHub/learnc/chapters/day10.c/piont_function'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _strlenn, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _strlenn, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x40 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _swap_get_max, symObjAddr: 0x40, symBinAddr: 0x100003E80, symSize: 0x68 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA8, symBinAddr: 0x100003EE8, symSize: 0x90 }
+...
