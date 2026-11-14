@@ -48,6 +48,7 @@ int main(){
     printf_array(nums,len);
     change_array1(nums,len,get_sum);
     printf_array(nums,len);
+    printf("%p",&change_array);
 
   
     return 0;
