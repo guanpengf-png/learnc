@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/xiaojinghan/Documents/GitHub/learnc/chapters/day10.c/function_recall'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _get_rand, symObjAddr: 0x0, symBinAddr: 0x100003D84, symSize: 0x3C }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _get_rand, symObjAddr: 0x0, symBinAddr: 0x100003D84, symSize: 0x3C }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _printf_array, symObjAddr: 0x3C, symBinAddr: 0x100003DC0, symSize: 0x78 }
+  - { offsetInCU: 0xBE, offset: 0xBE, size: 0x8, addend: 0x0, symName: _change_array, symObjAddr: 0xB4, symBinAddr: 0x100003E38, symSize: 0x78 }
+  - { offsetInCU: 0x11A, offset: 0x11A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12C, symBinAddr: 0x100003EB0, symSize: 0xA4 }
+...
